@@ -17,7 +17,7 @@ Vector2 ball2_position = {(float)sw / 3 * 2, (float)sh / 3 * 2};
 double speed1 = 2, speed2 = 2;
 
 // x증가량과 y증가량을 받아 백터 크기를 1로 만든 후 움직이게 하는 함수
-// 대각선 이동시에도 같은 속도로 
+// 대각선 이동시에도 같은 속도로 움직임
 void movef1(double x, double y){
     double value = sqrt((x*x)+(y*y));
     if(value == 0)
